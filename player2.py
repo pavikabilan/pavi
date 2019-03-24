@@ -1,4 +1,4 @@
-# pavithra
+#pavithra
 num=int(input())
 if num<0:
     print(0)
