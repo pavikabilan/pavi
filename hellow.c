@@ -1,4 +1,3 @@
-#pavithra
 #include<stdio.h>
 int main()
 {
