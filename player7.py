@@ -1,4 +1,4 @@
-#nikitha
+#pavithra
 str=str(input())
 newstr= ''
 for i in range(len(str)//2):
