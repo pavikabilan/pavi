@@ -1,3 +1,3 @@
-# Nikithat
+# pavitha
 a=str(input())
 print(a[::-1])
