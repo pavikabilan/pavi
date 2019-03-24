@@ -1,4 +1,4 @@
-# pavithra
+#pavithra
 num=int(input())
 reverse=0
 while(num>0):
