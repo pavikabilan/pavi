@@ -1,3 +1,4 @@
+#pavithra
 x=int(input())
 def ispoweroftwo(x):
     return(x and (not(x&(x-1))))
