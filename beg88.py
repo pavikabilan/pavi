@@ -7,4 +7,4 @@ else:
     while n>0:
         s+=n
         n-=1
-    print("s",s)    
+    print(s)    
