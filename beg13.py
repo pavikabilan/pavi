@@ -1,5 +1,4 @@
-#pavithra
-#kabilan
+#pavithrakabilan
 n=int(input())
 temp=n
 rev=0
