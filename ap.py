@@ -1,0 +1,5 @@
+A=int()
+N=int()
+D=int()
+total=(n*(2*A+(N-1)*D))
+print(total)
