@@ -1,3 +1,4 @@
+#pavithra
 n1=int(input())
 z=list(map(int,input().split()))
 c=0
