@@ -32,3 +32,15 @@ def add():
 		n-=1
 	print(sum)
 add()	
+
+
+
+
+#addition using function in for loop
+def add():
+	sum=0
+	for i in range(1,5):
+		sum+=i
+	print(sum)
+add()	
+		
