@@ -29,3 +29,25 @@ for  j in range(0,n):
     x = int(input())
     list.append(x)
 split(list)
+
+
+
+
+
+#reverse the list using fumn
+
+
+
+
+
+def Reverse(lst):
+    lst.reverse()
+    return lst
+lst=[1,2,3,4,5,7,6,8,9]
+print(Reverse(lst))
+
+
+def reverse(list):
+    return list[::-1]
+list=[1,2,3,4]
+print(reverse(list))
