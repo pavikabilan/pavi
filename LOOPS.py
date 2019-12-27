@@ -19,3 +19,33 @@ while a>0:
     a=a//10
 print(sum)    
 
+
+
+
+a=int(input("enter the number1:"))
+b=int(input("enter the number2:"))
+for i in range(a,b):
+    rev=0
+    while(i>0):
+        rem=i%10
+        rev=(rev*10)+rem
+        i=i//10
+    print(rev) 
+    
+    
+    
+    
+a=int(input("enter the number:"))
+for i in range(1,a):
+    sum=0
+    while i>0:
+        d=i%10
+        sum+=d
+        i=i//10
+    print(sum)    
+    
+    
+
+    
+    
+    
