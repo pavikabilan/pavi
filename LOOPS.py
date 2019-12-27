@@ -42,7 +42,26 @@ for i in range(1,a):
         d=i%10
         sum+=d
         i=i//10
-    print(sum)    
+    print(sum)   
+    
+    
+    
+    
+    
+    a=int(input())
+for i in range(1,a):
+    fact=1
+    while(i>0):
+        fact=i*fact
+        i-=1
+    print(fact)
+
+ 
+    
+
+    
+    
+    
     
     
 
