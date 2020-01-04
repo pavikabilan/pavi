@@ -59,7 +59,28 @@ for i in range(1,a):
  
     
 
+    #fibonacci
     
+    
+    def fibonacci(n):
+    a=0
+    b=1
+    count=0
+    if n==0:
+        print('enter the positive value')
+    elif n==1:
+        print(a)
+    else:
+        while(count<n):
+            print(a, end=' ')
+            c=a+b 
+            a=b 
+            b=c 
+            count+=1
+            
+
+fibonacci(10)            
+        
     
     
     
