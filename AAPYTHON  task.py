@@ -37,6 +37,41 @@ class EvenOdd:
         for self.b in self.a:
             if self.b % 2 == 0:
                 evenlist.append(self.b)
+                
+                
+                
+ # reverse list
+def reverse():
+    n=int(input("enter the value:"))
+    a=[]
+    revlist=[]
+    for i in range (11,n+1):
+        rev=0
+        a.append(i)
+        while i!=0:
+            d =i % 10
+            rev = (rev * 10) + d
+            i = i // 10
+        revlist.append(rev)
+    print(" \n the list is: ",a , end = " ")
+    print(" \n the reverse list is: ",revlist,end = "  ")
+    
+reverse() 
+
+
+
+
+
+'''a=int(input("enter the number:"))
+d=0
+while a>0:
+    rev=a%10
+    d=(d*10)+rev
+    a=a//10
+print(d)'''
+
+
+                
             else:
                  oddlist.append(self.b)
         print(" \n even list is", evenlist, end=" ")        
